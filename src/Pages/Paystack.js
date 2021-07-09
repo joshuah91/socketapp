@@ -124,7 +124,7 @@ const Paystack = ({location}) => {
             />
         </div>
         <div className={classes.formGroup}>
-          <label className={classes.formLabel}>Amount</label>
+          <label className={classes.formLabel}>Amount(2 zeros added for kobo)</label>
           <input
             className={classes.formInput}
             type="text" 
