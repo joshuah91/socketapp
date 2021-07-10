@@ -5,6 +5,9 @@ const useStyles = makeStyles((theme) => ({
   imageDiv: {
     border: "1px solid #84a17d",
     borderRadius: "8px",
+    [theme.breakpoints.down("sm")]: {
+      width: "70%",
+    },
   },
   image: {
     width: "90%",
@@ -13,8 +16,9 @@ const useStyles = makeStyles((theme) => ({
     margin: "20px",
     [theme.breakpoints.down("sm")]: {
       padding: "5px",
+      margin: "5px",
       height: "40vh",
-      width: "50%",
+      width: "70%",
     },
   }, 
 }));
