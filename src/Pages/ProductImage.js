@@ -12,9 +12,10 @@ const useStyles = makeStyles((theme) => ({
     height: "80vh",
     margin: "20px",
     [theme.breakpoints.down("sm")]: {
-      padding: "3px",
+      padding: "5px",
       margin: "5px",
-      height: "70vh",
+      height: "60vh",
+      width: "80%",
     },
   }, 
 }));
