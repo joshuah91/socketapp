@@ -13,7 +13,6 @@ const useStyles = makeStyles((theme) => ({
     margin: "20px",
     [theme.breakpoints.down("sm")]: {
       padding: "5px",
-      margin: "5px",
       height: "40vh",
       width: "70%",
     },
