@@ -6,7 +6,7 @@ const useStyles = makeStyles((theme) => ({
     border: "1px solid #84a17d",
     borderRadius: "8px",
     [theme.breakpoints.down("sm")]: {
-      width: "70%",
+      width: "50%",
     },
   },
   image: {
